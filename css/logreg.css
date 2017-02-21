@@ -1,0 +1,247 @@
+.overall{
+	background-image: url(background.jpg);
+	background-size: 100% 100%;
+	width: 100%;
+	
+}
+
+/*
+#login {
+    margin-left: 50%;
+    margin-top: 15%;
+    margin-right: 20%;
+    background-color: #ffffff;
+    padding-right: 0;
+    padding-left: 0%;
+    border-radius: 2%;
+}
+
+#login1 {
+    margin-right: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: 0;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+*/
+/*background{
+    width: 80%;
+    height: 300px;
+    margin: 10% auto;
+    /* position: absolute; */
+    /* top: 0; */
+   /* background: #00000069;
+    text-align: center;
+    border-radius: 10px;
+}*/
+
+#login {
+    /* margin-left: 50%; */
+    padding: 0px;
+    margin-top: -2%;
+    /* margin-right: 20%; */
+    background-color: #ffffff;
+    padding-right: 0;
+    padding-left: 0%;
+    border-radius: 2%;
+    width: 40%;
+    position: absolute;
+    right: 5%;
+    top: 114px;
+    z-index: 1;
+
+
+}
+
+#login1 {
+    margin-right: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: 0;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding: 10%;
+    /* margin-top: -5%; */
+}
+
+#login_name
+{
+	text-align: center;
+	font-size: xx-large;
+	font-family: initial;
+    margin-top: -9px;
+    margin-bottom: 30px;
+    color: #0012ff;
+
+
+}
+
+.background
+{
+	width: 80%;
+    height: 300px;
+    margin: 10% auto;
+    /* position: absolute; */
+    /* top: 0; */
+    background: #00000069;
+    text-align: start;
+    border-radius: 10px;
+    /* text-align: -webkit-center; */
+    font-size: 70;
+    font-family: cursive;
+    font-style: oblique;
+    color: #f3ecec;
+}
+
+#forgetpassword
+{
+	text-align: center;
+    margin-top: 83px;
+
+}
+
+#loginbtn {
+    cursor: pointer;
+	margin-left: 35px;
+    text-align: center;
+    width: initial;
+    color: black;
+    backface-visibility: initial;
+    background-color: #0095ff;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 6px;
+    margin-right: 6px !important
+    margin-left: 35px; !important
+}
+
+#registerbtn{
+    cursor: pointer;
+    text-align: center;
+    width: initial;
+    color: black;
+    backface-visibility: initial;
+    background-color: #0095ff;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 6px;
+}
+
+#uname {
+    padding: 5px 100px 5px 100px;
+    text-align: -webkit-center;
+    border-radius: 4px;
+    /* padding-bottom: 2px; */
+    margin-bottom: 20px;
+        margin-left: 0px;
+
+}
+
+#upwd{
+	     padding: 5px 100px 5px 100px;
+    text-align: -webkit-center;
+    border-radius: 4px;
+    /* padding-bottom: 2px; */
+    margin-bottom: 20px;
+        margin-left: 0px;
+
+}
+
+.tydytext
+{
+	    position: relative;
+    left: 20%;
+    bottom: -33%;
+}
+
+.input
+{
+	    width: 100%;
+    height: 30px;
+    border-radius: 2px;
+    box-shadow: 0 0 1px 2px #123456;
+    margin-top: 10px;
+    padding: 7px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.registerclass
+{
+	padding: 0px;
+    margin-top: -2%;
+    /* margin-right: 20%; */
+    background-color: #ffffff;
+    padding-right: 0;
+    padding-left: 0%;
+    border-radius: 2%;
+    width: 40%;
+    position: absolute;
+    right: 5%;
+    top: 114px;
+}
+
+#register
+{
+	padding: 0px;
+    margin-top: -2%;
+    /* margin-right: 20%; */
+    background-color: #ffffff;
+    padding-right: 0;
+    padding-left: 0%;
+    border-radius: 2%;
+    width: 40%;
+    position: absolute;
+    right: 5%;
+    top: 114px;
+}
+
+#registerheader
+{
+	
+    text-align: -webkit-center;
+    color: #0012ff;
+
+}
+
+.inputreg{
+
+    margin-left: 50px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    /* border-style: solid; */
+    box-shadow: 0 0 0px 1px #123456;
+    padding-right: 47px;
+
+}
+
+#register_btn{
+	cursor: pointer;
+    text-align: center;
+    width: initial;
+    color: black;
+    backface-visibility: initial;
+    background-color: #0095ff;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 6px;
+    margin-left: 83px;
+    margin-bottom: 18px;
+}
+
+/*.regbuttoninregpage
+{
+   cursor: pointer;
+    text-align: center;
+    width: initial;
+    color: black;
+    backface-visibility: initial;
+    background-color: #0095ff;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 6px;
+    margin-left: 83px;
+    margin-bottom: 18px; 
+}*/

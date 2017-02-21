@@ -1,0 +1,31 @@
+.overall{
+	background-image: url(background.jpg);
+	background-size: 100% 100%;
+	width: 100%;
+	
+	}
+.about_page{
+	background-color: #fff;
+	margin: 10%;
+	padding: 30px;
+    border-radius: 5px;
+}
+
+.title{
+	font-size: 35px;
+    color: blue;
+    font-family: cursive;
+    text-align: -webkit-center;
+}
+
+.text{
+	font-size: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-family: cursive;
+    color: cadetblue;
+    text-align: -webkit-center;
+}
+

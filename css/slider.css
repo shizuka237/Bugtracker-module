@@ -1,0 +1,101 @@
+
+.slider {
+    height: 90%;
+    width: 40%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0%;
+    background-color: #fff;
+    overflow-x: hidden;
+    overflow-y: auto;
+    transition: 0.5s;
+    padding-top: 60px;
+	-webkit-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+    /* z-index: 1; */
+}
+
+.show_slider{
+		-webkit-transform: translate3d(0%,0,0);
+    transform: translate3d(0%,0,0);
+			   transition: 0.5s;
+
+}
+
+.overlay, .window_overlay,.img_overlay
+{
+    position:fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    z-index:1;
+    display:none;
+			background-color:rgba(0,0,0,0.4);
+}
+
+
+
+.des {
+    font-size: 35px;
+    font-style: normal;
+   text-align: left;
+    margin-left: 20px;
+    color: #0404f7;
+	
+}
+
+.des1
+{
+    font-size: 18px;
+    font-style: normal;
+    /*font-stretch: narrower;*/
+    /* font-variant: normal; */
+    font: x-large;
+    padding-left: 20px;
+    /*padding-bottom: 10px;*/
+}
+
+#bug_identification_time
+{
+    font-size: 19px;
+    padding-left: 22px;
+    padding-bottom: 15px;
+    color: #293fea;
+}
+#email_id{
+    font-size: 19px;
+    padding-left: 22px;
+    padding-bottom: 15px;
+    color: #293fea;
+}
+#bug_resolvetime
+{
+    font-size: 19px;
+    padding-left: 22px;
+    padding-bottom: 15px;
+    color: #293fea;
+}
+
+#bug_description
+{
+    font-size: 19px;
+    padding-left: 22px;
+    padding-bottom: 15px;
+    color: #293fea;
+}
+
+.maintitle{
+    font-size: 32px;
+    color: blue;
+    text-align: -webkit-center;
+}
+
+form {
+    width: 250px;
+    border: 1px dashed #aaa;
+    /* padding: 10px 30px 40px; */
+    /* margin-left: 70px; */
+    background-color: #f0f8ff;
+}

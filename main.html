@@ -1,0 +1,119 @@
+<html>
+<head>
+<title>Bug Tracker</title>
+	
+		<link href="css/main.css" rel="stylesheet">
+		
+
+		<!--link href="css/mainpage.css" rel="stylesheet"-->
+    	<link href="css/slider.css" rel="stylesheet">
+</head?>
+<body>
+<div id="main ">
+<div class="overlay" onclick='hideslider();'></div>
+<div class="img_overlay"></div>
+<div class="window_overlay">
+	<div class="container">
+  		<div class="thing"></div>
+  		<div class="thing"></div>
+  		<div class="thing"></div>
+ 	 	<div class="thing"></div>
+  		<div class="thing"></div>
+  		<div class="thing"></div>
+  		<div class="thing"></div>
+  		<div class="thing"></div>
+  		<div class="thing"></div>
+  		<div class="thing"></div>
+  		<div class="thing"></div>
+  		<div class="thing"></div>
+	</div>
+	Please wait...</div>
+<div class="maintitle">BUG TRACKER</div>
+<div>
+<a class="logout" href="logout.php">LOGOUT</a>
+</div>
+	<div class="maincontent" id="bugtableheader" >
+		<div class="bug_id uppercase lightgray font20 width20">Bug ID</div>
+		<div class="bug_desc uppercase lightgray font20 width20">Bug Description</div>
+		<div class="Check_box uppercase lightgray font20 width20">Check Box</div>
+		<div class="Bug_log_time uppercase lightgray font20 width20">Bug log time</div>
+		<div class="Bug_image uppercase lightgray font20 width20">Bug Image</div>
+		<div class="delete uppercase lightgray font20 width20">Delete</div>
+	</div>
+			<!--table border="1" class="bugstable"-->
+				<!--tr id="bugtableheader">
+					<th>
+                    #
+					</th>
+					<th>
+						Bug description
+					</th>
+					<th>
+				     	check
+					</th>
+					<th>
+						Bug log time
+					</th>
+					<th>
+					   Bug image
+					</th>
+				</tr-->
+				<!-- <tr> -->
+				<div class="tabval" >
+					<div class="val bug_id_value white font15 width20">[bug_blk.bug_id;block=tr;noerr]</div>
+					<div class="val bug_name white font15 width20" data-id="[bug_blk.bug_id;noerr]">[bug_blk.bug_description;htmlconv=no;noerr]</div>
+					<div class="val check_box white font15 width20"><input type="checkbox" data-id="[bug_blk.bug_id;noerr]" name="bug"   class="bug_checkbox" [bug_blk.ischecked; if [val]=='1' ; then 'checked'; else '';noerr] ></div>
+					<div class="val time white font15 width20">[bug_blk.time_stamp;frm='dd-mm-yyyy';noerr]</div>
+					<div class="val img show_pic white font15 width20"><a id="imgtab1"><img id="imgtab" class="small" src="[bug_blk.bug_image;noerr]" height="50" width="50"></a></div>
+					<div class="val delete"><a href="delete.php?id=[bug_blk.bug_id;noerr]">Delete</a></div>
+				</div>
+
+				<!-- <tr>
+					<td>[bug_blk.bug_id;block=tr;noerr]</td>
+					<td class="bug_name" data-id="[bug_blk.bug_id;noerr]">[bug_blk.bug_description;htmlconv=no;noerr]</td>
+					<td><input type="checkbox" data-id="[bug_blk.bug_id;noerr]" name="bug"   class="bug_checkbox" [bug_blk.ischecked; if [val]=='1' ; then 'checked'; else '';noerr] ></td>
+					<td>[bug_blk.time_stamp;frm='dd-mm-yyyy';noerr]</td>
+					<td><img src="[bug_blk.bug_image;noerr]" height="50" width="50"></td>
+                     <td><a href="delete.php?id=[bug_blk.bug_id;noerr]">Delete</a></td>
+				
+				</tr> -->
+				
+				<!-- </tr> -->
+				<!-- <tr id="nodata"> -->
+					<!-- <td colspan="5" align="center">No bugs [bug_blk;nodata;block=tr;noerr]</td> -->
+				<!-- </tr> -->
+			<!-- </table> -->    
+			<br/><br/>
+			<div class="full_bugdes">
+			<div class="Bugdes">Bug description</div>
+			<div contenteditable=true id="bugdescription" style="width: 250px;height: 100px;border: 4px solid #d9d9d9;border-radius: 10px;
+    			border-style: solid;"></div>
+			<form id="attachbugimageform" action="addbugimage.php" method="post" enctype="multipart/form-data">
+				<input type="file" name="files" id="attachbugimage" class="attachbugimage"/>
+			</form>
+			</div>
+		</div>
+		  
+            
+		<div class="slider" id="slider_id">
+
+           <h2 class="des">DESCRIPTION</h2>
+           <!--div class="closebtn" id="closebtn_id" onclick="closeNav();"></div-->
+			   <div class="des1">BUG DESCRIPTION :</div> <div  id="bug_description"></div>
+			   <div class="des1">BUG IDENTIFICATION TIME :</div><div id="bug_identification_time"></div>
+			   <div class="des1">BUG RESOLVER ID :</div> <div id="email_id"></div>
+			   <div class="des1">BUG RESOLVING TIME :</div><div id="bug_resolvetime"></div>
+			   <div class="des1">BUG IMAGE :</div><div id="bug_img"><img src="" id="bugimage" style="width: 204px;padding-left: 70px; padding-top: 5px;"></img></div>
+        
+		</div>
+</div>
+</body>
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+		<script src="js/jquery-migrate-1.0.0.min.js"></script>
+		<script type="text/javascript" src="js/jquery.form.js"></script>
+		<script type="text/javascript" src="js/bugtracker.js"></script>
+		<script type="text/javascript" src="js/main2.js"></script>
+		<script type="text/javascript" src="js/2.js"></script>
+		<script type="text/javascript" src="js/img.js"></script>
+</html>
+
